@@ -33,4 +33,18 @@ define(['stat'], function(Stat) {
 			expect( stat.maximumValue( new Array(0) ) ).toBeUndefined();
 		});
 	});
+
+	describe("average value", function() {
+		it("should return average value for list of input sequence", function() {
+			expect( stat.averageValue(list) ).toEqual(4.5);
+		});
+
+		it("should return undefined when list is undefined", function() {
+			expect(stat.maximumValue(undefined)).toBeUndefined();
+		});
+
+		it("should return undefined when list is empty", function() {
+			expect( stat.maximumValue( new Array(0) ) ).toBeUndefined();
+		});
+	});
 });

@@ -34,7 +34,18 @@ define(
 			return max;
 		};
 
-		//Return the module constructor
+		Stat.prototype.averageValue = function(list) {
+			if (typeof(list) === 'undefined' || list.length === 0) {
+				return;
+			};
+			var sum=0;
+			for (var i = list.length - 1; i >= 0; i--) {
+				sum = sum + list[i];
+			};
+			return sum/list.length;
+		};
+
+ 		//Return the module constructor
 		return Stat;
 	}
 );
