@@ -12,7 +12,9 @@ define(
 
 		Stat.prototype.minimumValue = function(list) {
 			var min;
-			if (list == undefined || list.length==0) { return 0 };
+			if (typeof(list) === 'undefined' || list.length === 0) {
+				return;
+			};
 			min = list[0];
 			for (var i = list.length - 1; i > 0; i--) {
 				if (min > list[i]) { min = list[i] };
