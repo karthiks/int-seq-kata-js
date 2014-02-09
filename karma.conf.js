@@ -14,8 +14,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      {pattern: '"src/**/*.js"', included: false},
-      {pattern: '"spec/**/*.js"', included: false},
+      {pattern: 'src/**/*.js', included: false},
+      {pattern: 'spec/**/*Spec.js', included: false},
 
       'spec/test-main.js'
     ],
@@ -60,7 +60,7 @@ module.exports = function(config) {
 
 
     // If browser does not capture in given timeout [ms], kill it
-    captureTimeout: 60000,
+    captureTimeout: 5000,
 
 
     // Continuous Integration mode
