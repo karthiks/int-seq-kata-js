@@ -22,6 +22,18 @@ define(
 			return min;
 		};
 
+		Stat.prototype.maximumValue = function(list) {
+			var max;
+			if (typeof(list) === 'undefined' || list.length === 0) {
+				return;
+			};
+			max = list[0];
+			for (var i = list.length - 1; i > 0; i--) {
+				if (max < list[i]) { max = list[i] };
+			};
+			return max;
+		};
+
 		//Return the module constructor
 		return Stat;
 	}
