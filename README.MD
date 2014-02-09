@@ -23,10 +23,12 @@ E.g. For a integer sequence "6, 9, 15, -2, 92, 11" we have the following answers
 + Karma
 + Jasmine (karma-jasmine)
 + RequireJS
++ PhantomJS (If you're interested in Headless Browser testing, like the way this project is configured. If not change the karma config file and you're good.)
 
 ## Pre-requisites
 + Node
 + NPM
++ PhantonJS (Optional, if you're interested in headless browser testing.)
 
 ## Step-by-step Actions for setting-up project with tools of use and productivity for Code Kata
 ```
