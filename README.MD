@@ -18,6 +18,8 @@ E.g. For a integer sequence "6, 9, 15, -2, 92, 11" we have the following answers
 * Sequence Length: 6
 * Average Value: 18.1666666
 
+Kata Source: [Practicing programming with Code Kata and Javascript/Jasmine](http://pauloortins.com/code-kata-javascript-jasmine/)
+
 ## Tools Employed
 + Bower
 + Karma
