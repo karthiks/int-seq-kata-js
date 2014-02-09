@@ -21,7 +21,7 @@ require.config({
 
     // Important: you can conveniently ignore '/base' when you compute the paths for the libs/modules as below
     paths: {
-        //'hello': 'src/hello'
+        'stat': 'src/stat'
         // All source files go here for simpler naming so that it is easier to use these names later
         // instead of using the absolute/relative path where ever these modules are required
     },
