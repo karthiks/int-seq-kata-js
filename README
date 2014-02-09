@@ -47,3 +47,4 @@ $ karma init
 
 ## Inspirations and References
 * Blog post by [Ben Nadel](http://www.bennadel.com/blog/2393-Writing-My-First-Unit-Tests-With-Jasmine-And-RequireJS.htm)
+* Article by [Paulo Ortins](http://pauloortins.com/codekatas-for-coding-dojos/)
